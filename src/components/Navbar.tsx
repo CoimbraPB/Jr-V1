@@ -168,11 +168,11 @@ export function Navbar() {
             <div className="flex-1 flex flex-col justify-center px-10 mt-12">
               <div className="flex flex-col w-full">
                 {[
-                  { name: 'Bespoke builds', path: '/bespoke-builds' },
-                  { name: 'Projects', path: '/projects' },
-                  { name: 'Current stock', path: '/current-stock' },
-                  { name: 'About', path: '/about' },
-                  { name: 'Contact', path: '/contact' }
+                  { name: 'Projetos sob medida', path: '/bespoke-builds' },
+                  { name: 'Projetos (Em Desenvolvimento)', path: '/projects' },
+                  { name: 'Estoque atual (Em Desenvolvimento)', path: '/current-stock' },
+                  { name: 'Sobre (Em Desenvolvimento)', path: '/about' },
+                  { name: 'Contato (Em Desenvolvimento)', path: '/contact' }
                 ].map((link, index) => (
                   <motion.div
                     key={link.name}
